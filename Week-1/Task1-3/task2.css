@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+html {
+    font-size:20;
+}
+
+body {
+    font-family: 'Poppins',sans-serif ;
+    line-height:1.5;
+    color:rgba(0, 0, 0, 1);
+}
+
+/*header section*/
+#main-header {
+    background-color: rgb(130, 203, 231);
+}
+
+#main-header div.container{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0;
+}
+
+#main-header div.container h1{
+    width:30%;
+}
+
+#main-header div.container div.links{
+    width:50%;
+   
+}
+
+
+#main-header div.container div.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-header div.container div.links ul li a{
+    text-decoration: none;
+    font-size:1.12rem ;
+    font-weight: 700;
+    color:black;
+}
+
+#main-header div.container div.links ul li a:hover{
+    color:green;
+    font-size: 1.3rem;;
+}
+
+
+/*Website body section*/
+
+#main-body {
+    background-color: white;
+}
+
+#main-body div.container{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 0;
+}
+
+
+#main-body div.container div.aim{
+    width:45%;
+}
+
+
+#main-body div.container div.aim h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+#main-body div.container img{
+    width:45%;
+    border-radius: 6rem;
+}
+
+/*data table*/
+
+#datatable {
+    background-color:rgb(39, 36, 36);
+}
+
+#datatable div.container {
+    width:60%;
+    padding:2rem 0;
+    text-align: center;
+    margin: 0 auto;;
+}
+
+#datatable div.container h1{
+    font-size: 3rem;
+    color: rgb(218, 218, 245);
+    padding:1rem
+}
+
+#datatable div.container table{
+    margin:0 auto;
+    color:white;
+    text-align: left;
+}
+
+
+#datatable div.container table thead{
+    font-weight: bold;
+    color:white;
+    font-size: 1.5rem;
+    background-color: blue;
+    text-align: center;
+}
+
+#datatable div.container table tbody{
+    font-weight: bold;
+    color:rgb(15, 1, 1);
+    font-size: 1.5rem;
+    background-color: rgb(140, 223, 171);
+    text-align: left;
+}
+
+
+/*Contact-form*/
+
+#contact-form {
+    background-color: white;
+}
+    
+#contact-form div.container{
+    background-color: red;
+    width:50%;
+    padding:2rem 0;
+    text-align: left;
+    margin:1rem auto;
+    background-color:rgb(17, 11, 26);
+    color:white
+}
+
+
+#contact-form div.container form div.name{
+    margin-bottom:2rem;
+}
+
+
+
+#contact-form div.container form div.name label{
+    display:block;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+#contact-form div.container form div.name input{
+    display:block;
+    color:black;
+    width:100%;
+    font-size: 1.5rem;
+}
+
+#contact-form div.container form div.email{
+    margin-bottom:2.5rem;
+}
+
+#contact-form div.container form div.email label{
+    display:block;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#contact-form div.container form div.email input{
+    display:block;
+    color:black;
+    width:100%;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#contact-form div.container form div.comment{
+    
+    width:100%;
+    margin:1rem 0rem;
+    
+}
+
+#contact-form div.container form div.comment label{
+    display:block;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#contact-form div.container form div.message textarea{
+    display:block;
+    color:black;
+    width:100%;
+    margin-bottom: 1rem;
+}
+
+#contact-form div.container form div.btn{
+    text-align: center;  
+}
+
+#contact-form div.container form div.btn button{
+    background-color: white;
+    width:50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2rem;
+    color:black;
+    font-size:1.2rem;  
+    padding: 1rem 0rem;
+    font-weight: bold;
+}
+
+#contact-form div.container form div.btn button:hover{
+    background-color: green;
+}
+
+#clickme {
+    background-color: burlywood;
+    text-align: center;
+}
+#clickme button{
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2rem;
+    color: white;
+    font-size:1.2rem;  
+    padding: 2rem 2rem;
+    font-weight: bold;
+}
